@@ -8,4 +8,12 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 
 # install Vue3 + Vite
-
+```bash
+yarn create vite
+# or
+npm create vite@latest
+#or
+pnpm create vite
+#or
+bunx create-vite
+```
