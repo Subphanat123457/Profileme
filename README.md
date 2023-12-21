@@ -31,18 +31,24 @@ import 'bulma/css/bulma.css';
 
 # IF YOU APPLY
 
-## Step 1 install npm
+## Step 1 Clone project
+```bash
+git clone https://github.com/Subphanat123457/Profileme.git
+```
+### warning: want git
+
+## Step 2 install npm
 ```bash
 npm install
 ```
 ### warning: want note.js
 
-## Step 2 npm run dev
+## Step 3 npm run dev
 ```bash
 npm run dev
 ```
 
-## step 3 Build project
+## step 4 Build project
 ```bash
 npm run build
 ```
