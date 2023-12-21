@@ -38,7 +38,7 @@
   </template>
   
   <script>
-import Contract from './Contract.vue';
+import Contract from './contract.vue';
 
   export default {
   components: { Contract },

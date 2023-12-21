@@ -84,14 +84,14 @@ export default {
                     Title2: 'ฐานข้อมูล',
                     Title3: 'เฟรมเวิร์ค',
                     Title4: 'เครื่องมือ',
-                    Skill1: ['C++', 'C', 'Java', 'Python', 'JavaScript', 'HTML', 'CSS'],
+                    Skill1: [ 'Java', 'Python','C++', 'C', 'HTML', 'JavaScript', 'CSS'],
                     Skill2: ['MySQL'],
                     Skill3: ['Vue.js', 'Bootstrap' , 'react.js'],
                     Skill4: ['Git', 'GitHub', 'Visual Studio Code', 'Microsoft Office', 'Unity'],
-                    ScoreSkill1: [80, 80, 70, 70, 70, 70, 70],
-                    ScoreSkill2: [80],
-                    ScoreSkill3: [70, 70, 70],
-                    ScoreSkill4: [80, 80, 80, 80, 80], 
+                    ScoreSkill1: [60, 70, 30, 65, 70, 50, 50],
+                    ScoreSkill2: [65],
+                    ScoreSkill3: [70, 70, 30],
+                    ScoreSkill4: [75, 70, 90, 75, 45],
                 }
               }
         }

@@ -15,14 +15,18 @@
   <Objective :language="language" v-on:updateLanguage="updateLanguage" />
   <Certificate :language="language" v-on:updateLanguage="updateLanguage" />
   <Skill :language="language" v-on:updateLanguage="updateLanguage" />
+  <Education :language="language" v-on:updateLanguage="updateLanguage" />
+  <Activities :language="language" v-on:updateLanguage="updateLanguage" />
 
 </template>
 
 <script setup>
 import { ref, getCurrentInstance } from 'vue';
 import Objective from './components/Objective.vue'; 
-import Certificate from './components/Certificate.vue';
+import Certificate from './components/certificate.vue';
 import Skill from './components/Skill.vue';
+import Education from './components/Education.vue';
+import Activities from './components/Activities.vue';
 
 let language = ref('en');
 const { emit } = getCurrentInstance();
