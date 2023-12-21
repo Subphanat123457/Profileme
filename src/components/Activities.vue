@@ -83,6 +83,11 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 600px) {
+    .columns {
+      flex-direction: column;
+    }
+  }
 .fade-enter-active, .fade-leave-active {
     transition: opacity .5s;
   }
