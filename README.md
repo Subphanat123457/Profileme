@@ -24,8 +24,25 @@ bunx create-vite
 npm install bulma
 ```
 
-
 # import Bulma in main.js
 ```bash
 import 'bulma/css/bulma.css';
+```
+
+# IF YOU APPLY
+
+## Step 1 install npm
+```bash
+npm install
+```
+### warning: want note.js
+
+## Step 2 npm run dev
+```bash
+npm run dev
+```
+
+## step 3 Build project
+```bash
+npm run build
 ```
