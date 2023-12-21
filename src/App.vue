@@ -10,15 +10,17 @@
     </div>
     <footer>
       <button class="button is-ghost text-color" @click="toggleLanguage">Language {{ language }}</button>
-      <button class="button is-ghost">Ghost</button>
+      <button class="button is-ghost" @click="printPage"><i class="fa fa-pagelines" aria-hidden="true"></i> Print</button>
     </footer>
   </section>
   <Objective :language="language" v-on:updateLanguage="updateLanguage" />
+  <Certificate :language="language" v-on:updateLanguage="updateLanguage" />
 </template>
 
 <script setup>
 import { ref, getCurrentInstance } from 'vue';
 import Objective from './components/Objective.vue'; 
+import Certificate from './components/Certificate.vue';
 
 let language = ref('en');
 const { emit } = getCurrentInstance();
@@ -32,11 +34,21 @@ const toggleLanguage = () => {
 const updateLanguage = (newLanguage) => {
   language.value = newLanguage;
 };
+
+const printPage = () => {
+  window.print();
+};
+
 </script>
 
 <style scoped>
 .text-color {
   color: #000000;
+}
+@media print {
+  body {
+    font-size: 0.5em; /* Adjust as needed */
+  }
 }
 
 </style>

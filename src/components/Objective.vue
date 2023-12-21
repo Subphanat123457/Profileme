@@ -1,5 +1,5 @@
 <template>
-    <div class="columns is-multiline is-mobile">
+    <div class="columns is-multiline is-mobile is-full">
       <div class="column ">
         <div class="tile is-parent ">
           <div class="tile is-child box border-r">
@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-one-quarter icon-color">
+      <div class="column is-one-quarter-desktop is-full-mobile icon-color">
         <contract />
       </div>
     </div>
@@ -57,7 +57,7 @@ import Contract from './Contract.vue';
             p4: 'I am a developer who is passionate about working with teams and has the ability to solve problems effectively as a team.',
           },
           th: {
-            Title: 'วัตถุประสงค์',
+            Title: 'Caeer Objective',
             p1: 'ฉันตั้งใจที่จะเข้าร่วมการฝึกงานเพื่อพัฒนาทักษะของฉันและสร้างโครงการด้านข้างเพื่อเป็นพื้นฐานสําหรับการพัฒนาส่วนบุคคลและส่งเสริมความเข้าใจที่ลึกซึ้งยิ่งขึ้นเกี่ยวกับภาพรวมของการพัฒนาซอฟต์แวร์',
             p2: 'ความสามารถในการสื่อสารที่ชัดเจนเป็นจุดเด่นของฉันที่พร้อมที่จะแบ่งปันความรู้และประสบการณ์ทางเทคนิค ทั้งในภาษาไทยและภาษาอังกฤษ',
             p3: 'ฉันมุ่งมั่นที่จะจัดการเวลาของฉันอย่างมีประสิทธิภาพเพื่อสร้างผลงานที่ดีและตรงต่อเวลาตามกำหนดโปรเจค',
