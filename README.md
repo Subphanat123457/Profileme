@@ -18,11 +18,12 @@ pnpm create vite
 bunx create-vite
 ```
 
-# farmwork CSS Bulma
+# farmwork CSS Bulma and Foundation for Sites
 
 ```bash
 npm install bulma
 ```
+
 
 # import Bulma in main.js
 ```bash
