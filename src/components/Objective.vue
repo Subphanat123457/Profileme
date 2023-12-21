@@ -3,8 +3,8 @@
       <div class="column ">
         <div class="tile is-parent ">
           <div class="tile is-child box border-r">
-            <p class="title">{{ messages[language].Title }}</p>
-            <p>
+            <p class="title line">{{ messages[language].Title }}</p>
+            <p  >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
                 <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
               </svg>
@@ -83,6 +83,12 @@ import Contract from './contract.vue';
   }
   .icon-color{
     color: #0f0f0f;
+  }
+
+  .line{
+    border: none;
+  border-bottom: 1px solid black; /* Change color as needed */
+  width: 100%;
   }
   </style>
   

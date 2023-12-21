@@ -3,11 +3,12 @@
         <div class="column">
     <div class="tile is-parent ">
         <div class="tile is-child box border-r">
-            <p class="title">{{ messages[language].Title }}</p>
+            <p class="title line">{{ messages[language].Title }}</p>
         <div  v-for="(Subtitle, index) in messages[language].Subtitle" :key="index">
           
           <p class="subtitle">{{ messages[language].Subtitle[index] }}</p>
           <p class="subtitle">{{ messages[language].Subtitle2[index] }}</p>
+         
           <p>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
@@ -58,7 +59,8 @@ export default {
                     p1: ["Assisted in teaching at Comcamp, focusing on learning about the Internet of Things (IoT).",
                 "Capture and edit photographs and videos for CSMJU Studio, contributing to visual content creation."],
                     p2: ["Collaborated with the team to organize a 3-day, 2-night camp to support students in developing IT skills.",
-                "Collaborate with the team to ensure high-quality visuals for various projects and events."]
+                "Collaborate with the team to ensure high-quality visuals for various projects and events."],
+                    
                     
                 },
                 th: {
@@ -68,7 +70,8 @@ export default {
                     p1: ["ช่วยสอนที่ Comcamp โดยเน้นการเรียนรู้เกี่ยวกับ Internet of Things (IoT)",
                 "จับภาพถ่ายและแก้ไขวิดีโอสำหรับ CSMJU Studio เพื่อสร้างเนื้อหาที่มีความหลากหลาย"],
                     p2: ["ร่วมมือกับทีมในการจัดค่าย 3 วัน 2 คืน เพื่อสนับสนุนนักศึกษาในการพัฒนาทักษะด้านไอที",
-                "ร่วมมือกับทีมในการสร้างภาพที่มีคุณภาพสูงสำหรับโครงการและกิจกรรมต่างๆ"]
+                "ร่วมมือกับทีมในการสร้างภาพที่มีคุณภาพสูงสำหรับโครงการและกิจกรรมต่างๆ"],
+                
                 }
             }
         }
@@ -114,6 +117,9 @@ export default {
     width: 50%; /* Set the scale to 50% */
     position: relative;
   }
-  
+    .line{
+        border-bottom: 1px solid #000000;
+        padding-bottom: 0.5rem;
+    }
 
 </style>

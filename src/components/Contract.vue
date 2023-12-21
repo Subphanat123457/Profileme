@@ -51,10 +51,10 @@ export default {
             Title: 'Contact',
             facebook: 'Supanat Wiboonpanit',
             line: 'aomza788',
-            github: 'aomza788',
+            github: 'Subphant123457',
             email: 'irpg17102545aom@gmail.com',
             phone: '086 119 1958',
-            address: 'Bangkok, Thailand',
+            address: 'Chiang mai, Thailand',
         }
     }
     

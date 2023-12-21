@@ -2,7 +2,7 @@
     <div class="column margin-t">
         <div class="tile is-parent ">
           <div class="tile is-child box border-r">
-            <p class="title">{{ messages[language].Title }}</p>
+            <p class="title line">{{ messages[language].Title }}</p>
             <p>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
                 <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
@@ -47,6 +47,10 @@ export default {
 <style scoped>
 .margin-t{
     margin-top: -2rem;
+}
+.line{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 0.5rem;
 }
 
 </style>>
